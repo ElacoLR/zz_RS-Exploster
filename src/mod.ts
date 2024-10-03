@@ -36,7 +36,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 80,
-                StackMaxSize: 10
+                StackMaxSize: 20
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fcc851e64b4074b611119c",
@@ -71,7 +71,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                 ExplosionStrength: 100,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 5
+                StackMaxSize: 20
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fccc8962916c1f25af9936",
@@ -104,7 +104,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 60,
-                StackMaxSize: 5
+                StackMaxSize: 15
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb9d173370c7729baed341",
@@ -139,7 +139,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                 ExplosionStrength: 80,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 5
+                StackMaxSize: 15
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb9d4bbc2ff36e9d6a3af4",
@@ -172,7 +172,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 20,
-                StackMaxSize: 30
+                StackMaxSize: 50
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fba5140558a76e49824c42",
@@ -207,7 +207,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                 ExplosionStrength: 55,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 30
+                StackMaxSize: 50
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb95a362464a647b52b698",
@@ -343,7 +343,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                 ExplosionStrength: 40,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 30
+                StackMaxSize: 50
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb98f0a03776db08b20324",
@@ -444,7 +444,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 20,
-                StackMaxSize: 30
+                StackMaxSize: 45
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fa8e0599c008dd9e0fb657",
@@ -479,7 +479,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                 ExplosionStrength: 50,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 30
+                StackMaxSize: 45
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fae1d6363bd83e0ab522ca",
@@ -512,7 +512,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 30,
-                StackMaxSize: 20
+                StackMaxSize: 30
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb7683fa5439c11ca9d9e1",
@@ -547,7 +547,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                 ExplosionStrength: 55,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 20
+                StackMaxSize: 30
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb7b5dd837431fe2228e26",
@@ -580,7 +580,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 40,
-                StackMaxSize: 20
+                StackMaxSize: 25
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb8a4e8de9185a63e72bb0",
@@ -615,7 +615,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                 ExplosionStrength: 60,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 20
+                StackMaxSize: 25
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb8ab727786a577b0c4786",
@@ -751,7 +751,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                 ExplosionStrength: 40,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 30
+                StackMaxSize: 50
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb91d7db7dfd315bade30d",
@@ -784,7 +784,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 35,
-                StackMaxSize: 20
+                StackMaxSize: 40
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fbe6641ca64895de0c9030",
@@ -819,7 +819,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                 ExplosionStrength: 45,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 20
+                StackMaxSize: 40
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fbe6a3625f4d687b2b523b",
