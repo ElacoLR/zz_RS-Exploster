@@ -1,6 +1,10 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const BaseClasses_1 = require("C:/snapshot/project/obj/models/enums/BaseClasses");
+const config_json_1 = __importDefault(require("../config/config.json"));
 class Exploster {
     postDBLoad(container) {
         const CustomItem = container.resolve("CustomItemService");
@@ -21,7 +25,7 @@ class Exploster {
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 80,
-                StackMaxSize: 10
+                StackMaxSize: config_json_1.default["12gStack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fcc851e64b4074b611119c",
@@ -55,7 +59,7 @@ class Exploster {
                 ExplosionStrength: 100,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 5
+                StackMaxSize: config_json_1.default["12gStack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fccc8962916c1f25af9936",
@@ -87,7 +91,7 @@ class Exploster {
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 60,
-                StackMaxSize: 5
+                StackMaxSize: config_json_1.default["12_7Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb9d173370c7729baed341",
@@ -121,7 +125,7 @@ class Exploster {
                 ExplosionStrength: 80,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 5
+                StackMaxSize: config_json_1.default["12_7Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb9d4bbc2ff36e9d6a3af4",
@@ -153,7 +157,7 @@ class Exploster {
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 20,
-                StackMaxSize: 30
+                StackMaxSize: config_json_1.default["300Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fba5140558a76e49824c42",
@@ -187,7 +191,7 @@ class Exploster {
                 ExplosionStrength: 55,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 30
+                StackMaxSize: config_json_1.default["300Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb95a362464a647b52b698",
@@ -219,7 +223,7 @@ class Exploster {
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 50,
-                StackMaxSize: 10
+                StackMaxSize: config_json_1.default["338Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb9ac0cf03183ba3642f2b",
@@ -253,7 +257,7 @@ class Exploster {
                 ExplosionStrength: 70,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 10
+                StackMaxSize: config_json_1.default["338Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb9b3acc7ea11e689ad9fe",
@@ -285,7 +289,7 @@ class Exploster {
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 10,
-                StackMaxSize: 50
+                StackMaxSize: config_json_1.default["45ACPStack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb98a14d1430da00a13500",
@@ -319,7 +323,7 @@ class Exploster {
                 ExplosionStrength: 40,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 30
+                StackMaxSize: config_json_1.default["45ACPStack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb98f0a03776db08b20324",
@@ -351,7 +355,7 @@ class Exploster {
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 15,
-                StackMaxSize: 60
+                StackMaxSize: config_json_1.default["545Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb864e537337a92fef5033",
@@ -385,7 +389,7 @@ class Exploster {
                 ExplosionStrength: 50,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 60
+                StackMaxSize: config_json_1.default["545Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb87a4bc6372fabe5a3488",
@@ -417,7 +421,7 @@ class Exploster {
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 20,
-                StackMaxSize: 30
+                StackMaxSize: config_json_1.default["556Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fa8e0599c008dd9e0fb657",
@@ -451,7 +455,7 @@ class Exploster {
                 ExplosionStrength: 50,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 30
+                StackMaxSize: config_json_1.default["556Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fae1d6363bd83e0ab522ca",
@@ -463,6 +467,72 @@ class Exploster {
                     name: "5.56x45mm Cluster",
                     shortName: "5.56 Clstr",
                     description: "A 5.56x45mm NATO Cluster cartridge with a two-part armor-piercing projectile, the bullet consists of a sabot and a tungsten carbide penetrator body, in a brass case. This bullet was designed to surpass the one used in the 5.56x45mm NATO M995 cartridge in regard to its penetration capabilities, thanks to its muzzle velocity and peculiar design, it is capable of piercing basic and intermediate ballistic body protections, in addition to providing outstanding results against some modern specialized protection models, however, due to its design, it has a high bounce probability on various surfaces."
+                }
+            },
+        };
+        const HE_762_25 = {
+            itemTplToClone: "573603c924597764442bd9cb",
+            overrideProperties: {
+                Prefab: {
+                    path: "assets/content/items/ammo/patrons/patron_762x25tt_t_gzh.bundle",
+                    rcid: ""
+                },
+                ArmorDamage: 25,
+                PenetrationPower: 20,
+                Damage: 35,
+                FuzeArmTimeSec: 0.0001,
+                HasGrenaderComponent: true,
+                ShowHitEffectOnExplode: true,
+                FragmentType: "5996f6d686f77467977ba6cc",
+                ExplosionType: "smallgrenade_expl",
+                FragmentsCount: 0,
+                ExplosionStrength: 3,
+                StackMaxSize: config_json_1.default["762_25Stack"]
+            },
+            parentId: "5485a8684bdc2da71d8b4567",
+            newId: "66ff51f79af5ebd0cdbefb22",
+            fleaPriceRoubles: 400,
+            handbookPriceRoubles: 150,
+            handbookParentId: "5b47574386f77428ca22b33b",
+            locales: {
+                en: {
+                    name: "7.62x25mm TT High Explosive",
+                    shortName: "TT HE",
+                    description: "A 7.62x25mm High Explosive with a 5.8 gram lead core tracer bullet in a bimetallic case; intended for target designation and fire adjustment in battle (Trace color: Red). Although this cartridge has an effective range of 100 meters, its tracing capacity greatly exceeds this distance, designed to be used in the PPD, PPS and PPSh submachine guns along with the 7.62x25mm TT Pst gzh cartridge and provide a similar stopping power effect."
+                }
+            },
+        };
+        const Cluster_762_25 = {
+            itemTplToClone: "573603562459776430731618",
+            overrideProperties: {
+                Prefab: {
+                    path: "assets/content/items/ammo/patrons/patron_762x25tt_pst_gzh.bundle",
+                    rcid: ""
+                },
+                ArmorDamage: 30,
+                PenetrationPower: 25,
+                Damage: 40,
+                FuzeArmTimeSec: 0.0001,
+                HasGrenaderComponent: true,
+                ShowHitEffectOnExplode: true,
+                FragmentType: "5996f6fc86f7745e585b4de3",
+                ExplosionType: "smallgrenade_expl",
+                FragmentsCount: 2,
+                ExplosionStrength: 30,
+                MinExplosionDistance: 0.5,
+                MaxExplosionDistance: 3,
+                StackMaxSize: config_json_1.default["762_25Stack"]
+            },
+            parentId: "5485a8684bdc2da71d8b4567",
+            newId: "66ff527702b4665f67e8c191",
+            fleaPriceRoubles: 500,
+            handbookPriceRoubles: 250,
+            handbookParentId: "5b47574386f77428ca22b33b",
+            locales: {
+                en: {
+                    name: "7.62x25mm TT Cluster",
+                    shortName: "TT Clstr",
+                    description: "A 7.62x25mm Cluster cartridge with a 5.4 gram steel core bullet with a lead cladding and a bimetallic jacket, in a bimetallic case. Although this cartridge was created with the intention of neutralizing hostile personnel behind objects with low structural strength, it is currently capable of efficiently piercing basic ballistic body protections as well as some intermediate models at close range."
                 }
             },
         };
@@ -483,7 +553,7 @@ class Exploster {
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 30,
-                StackMaxSize: 20
+                StackMaxSize: config_json_1.default["762_39Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb7683fa5439c11ca9d9e1",
@@ -517,7 +587,7 @@ class Exploster {
                 ExplosionStrength: 55,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 20
+                StackMaxSize: config_json_1.default["762_39Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb7b5dd837431fe2228e26",
@@ -549,7 +619,7 @@ class Exploster {
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 40,
-                StackMaxSize: 20
+                StackMaxSize: config_json_1.default["762_51Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb8a4e8de9185a63e72bb0",
@@ -583,7 +653,7 @@ class Exploster {
                 ExplosionStrength: 60,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 20
+                StackMaxSize: config_json_1.default["762_51Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb8ab727786a577b0c4786",
@@ -615,7 +685,7 @@ class Exploster {
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 45,
-                StackMaxSize: 20
+                StackMaxSize: config_json_1.default["762_54Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb9fac1c55070606ecdff3",
@@ -649,7 +719,7 @@ class Exploster {
                 ExplosionStrength: 60,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 20
+                StackMaxSize: config_json_1.default["762_54Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb9fb38243d4c4b9620605",
@@ -661,6 +731,72 @@ class Exploster {
                     name: "7.62x54mm R Cluster",
                     shortName: "7.62R Clstr",
                     description: "A 7.62x54mm R Cluster cartridge with a 12.2 gram armor-piercing bullet with a pointed tungsten carbide core over a lead base with a bimetallic jacket, in a steel case. This BS bullet (Broneboynyy Serdechnik - \"Armor-piercing Core\") was developed by TsNIITochMash in the 2010s to greatly increase the penetration capabilities of designated marksman rifles such as the SVD and its variants, being able of piercing through the most modern specialized ballistic body protections, in addition to being capable of piercing light covers and light armored vehicles despite having a relatively low muzzle velocity compared to other cartridges. However, due to its design, it has a significant bounce probability off various surfaces."
+                }
+            },
+        };
+        const HE_918 = {
+            itemTplToClone: "57371aab2459775a77142f22",
+            overrideProperties: {
+                Prefab: {
+                    path: "assets/content/items/ammo/patrons/patron_9x18pm_pmm.bundle",
+                    rcid: ""
+                },
+                ArmorDamage: 30,
+                PenetrationPower: 25,
+                Damage: 40,
+                FuzeArmTimeSec: 0.0001,
+                HasGrenaderComponent: true,
+                ShowHitEffectOnExplode: true,
+                FragmentType: "5996f6d686f77467977ba6cc",
+                ExplosionType: "smallgrenade_expl",
+                FragmentsCount: 0,
+                ExplosionStrength: 4,
+                StackMaxSize: config_json_1.default["918Stack"]
+            },
+            parentId: "5485a8684bdc2da71d8b4567",
+            newId: "66ff4c5156f7ddd2307556b2",
+            fleaPriceRoubles: 500,
+            handbookPriceRoubles: 250,
+            handbookParentId: "5b47574386f77428ca22b33b",
+            locales: {
+                en: {
+                    name: "9x18mm High Explosive",
+                    shortName: "9x18 HE",
+                    description: "A 9x18mm High Explosive cartridge with a 5.6 gram steel core bullet with a bimetallic jacket in a truncated cone shape, in a bimetallic case. The 9x18mm PMM cartridge is the modernization of the 9x18mm PM cartridge, designed with the intention of increasing its piercing capabilities against basic ballistic body protections, and it has an increased powder charge, making it dangerous to fire in non-compatible weapons. It is intended to be used with the PMM pistol (Makarov Pistol Modernised) and the PP-9 \"Klin\" submachine gun."
+                }
+            },
+        };
+        const Cluster_918 = {
+            itemTplToClone: "573719df2459775a626ccbc2",
+            overrideProperties: {
+                Prefab: {
+                    path: "assets/content/items/ammo/patrons/patron_9x18pm_pbm.bundle",
+                    rcid: ""
+                },
+                ArmorDamage: 35,
+                PenetrationPower: 30,
+                Damage: 45,
+                FuzeArmTimeSec: 0.0001,
+                HasGrenaderComponent: true,
+                ShowHitEffectOnExplode: true,
+                FragmentType: "5996f6fc86f7745e585b4de3",
+                ExplosionType: "smallgrenade_expl",
+                FragmentsCount: 2,
+                ExplosionStrength: 35,
+                MinExplosionDistance: 0.5,
+                MaxExplosionDistance: 3,
+                StackMaxSize: config_json_1.default["918Stack"]
+            },
+            parentId: "5485a8684bdc2da71d8b4567",
+            newId: "66ff4cb1a867da9c785d1065",
+            fleaPriceRoubles: 600,
+            handbookPriceRoubles: 350,
+            handbookParentId: "5b47574386f77428ca22b33b",
+            locales: {
+                en: {
+                    name: "9x18mm Cluster",
+                    shortName: "9x18 Clstr",
+                    description: "A 9x18mm Cluster cartridge with a 3.7 gram hardened carbon steel core armor-piercing bullet with a bimetallic semi-jacket in a bimetallic case. This cartridge was designed in the 1990s to increase the penetration capabilities of 9x18 mm PM caliber weapons, and thanks to its high muzzle velocity it is capable of piercing through basic ballistic body protection equipment as well as certain intermediate protection equipment at short distances at the cost of a small increase in recoil."
                 }
             },
         };
@@ -681,7 +817,7 @@ class Exploster {
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 5,
-                StackMaxSize: 50
+                StackMaxSize: config_json_1.default["919Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb917da189607ad217ffef",
@@ -715,7 +851,7 @@ class Exploster {
                 ExplosionStrength: 40,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 30
+                StackMaxSize: config_json_1.default["919Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fb91d7db7dfd315bade30d",
@@ -747,7 +883,7 @@ class Exploster {
                 ExplosionType: "smallgrenade_expl",
                 FragmentsCount: 0,
                 ExplosionStrength: 35,
-                StackMaxSize: 20
+                StackMaxSize: config_json_1.default["939Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fbe6641ca64895de0c9030",
@@ -781,7 +917,7 @@ class Exploster {
                 ExplosionStrength: 45,
                 MinExplosionDistance: 0.5,
                 MaxExplosionDistance: 3,
-                StackMaxSize: 20
+                StackMaxSize: config_json_1.default["939Stack"]
             },
             parentId: "5485a8684bdc2da71d8b4567",
             newId: "66fbe6a3625f4d687b2b523b",
@@ -810,12 +946,16 @@ class Exploster {
         CustomItem.createItemFromClone(Cluster_545);
         CustomItem.createItemFromClone(HE_556);
         CustomItem.createItemFromClone(Cluster_556);
+        CustomItem.createItemFromClone(HE_762_25);
+        CustomItem.createItemFromClone(Cluster_762_25);
         CustomItem.createItemFromClone(HE_762);
         CustomItem.createItemFromClone(Cluster_762);
         CustomItem.createItemFromClone(HE_762_NATO);
         CustomItem.createItemFromClone(Cluster_762_NATO);
         CustomItem.createItemFromClone(HE_76254);
         CustomItem.createItemFromClone(Cluster_76254);
+        CustomItem.createItemFromClone(HE_918);
+        CustomItem.createItemFromClone(Cluster_918);
         CustomItem.createItemFromClone(HE_919);
         CustomItem.createItemFromClone(Cluster_919);
         CustomItem.createItemFromClone(HE_939);
@@ -1085,6 +1225,46 @@ class Exploster {
                                 "UnlimitedCount": true,
                                 "StackObjectsCount": 99999
                             }
+                        },
+                        {
+                            "_id": "66ff4d2e3473f2c04252fbbd",
+                            "_tpl": "66ff4c5156f7ddd2307556b2",
+                            "parentId": "hideout",
+                            "slotId": "hideout",
+                            "upd": {
+                                "UnlimitedCount": true,
+                                "StackObjectsCount": 99999
+                            }
+                        },
+                        {
+                            "_id": "66ff4d5280ff33f8bc775d9c",
+                            "_tpl": "66ff4cb1a867da9c785d1065",
+                            "parentId": "hideout",
+                            "slotId": "hideout",
+                            "upd": {
+                                "UnlimitedCount": true,
+                                "StackObjectsCount": 99999
+                            }
+                        },
+                        {
+                            "_id": "66ff582113a89d88a6f2a596",
+                            "_tpl": "66ff51f79af5ebd0cdbefb22",
+                            "parentId": "hideout",
+                            "slotId": "hideout",
+                            "upd": {
+                                "UnlimitedCount": true,
+                                "StackObjectsCount": 99999
+                            }
+                        },
+                        {
+                            "_id": "66ff583a8ea2fc248db5a210",
+                            "_tpl": "66ff527702b4665f67e8c191",
+                            "parentId": "hideout",
+                            "slotId": "hideout",
+                            "upd": {
+                                "UnlimitedCount": true,
+                                "StackObjectsCount": 99999
+                            }
                         }
                     ],
                     "barter_scheme": {
@@ -1167,6 +1347,38 @@ class Exploster {
                                     "_tpl": "5449016a4bdc2d6f028b456f"
                                 }
                             ]
+                        ],
+                        "66ff4d2e3473f2c04252fbbd": [
+                            [
+                                {
+                                    "count": 400,
+                                    "_tpl": "5449016a4bdc2d6f028b456f"
+                                }
+                            ]
+                        ],
+                        "66ff4d5280ff33f8bc775d9c": [
+                            [
+                                {
+                                    "count": 500,
+                                    "_tpl": "5449016a4bdc2d6f028b456f"
+                                }
+                            ]
+                        ],
+                        "66ff582113a89d88a6f2a596": [
+                            [
+                                {
+                                    "count": 300,
+                                    "_tpl": "5449016a4bdc2d6f028b456f"
+                                }
+                            ]
+                        ],
+                        "66ff583a8ea2fc248db5a210": [
+                            [
+                                {
+                                    "count": 400,
+                                    "_tpl": "5449016a4bdc2d6f028b456f"
+                                }
+                            ]
                         ]
                     },
                     "loyal_level_items": {
@@ -1179,7 +1391,11 @@ class Exploster {
                         "66fb9ff4e70678e16a502999": 4,
                         "66fba0149db74026e8d164af": 4,
                         "66fbe724686300386d2a535d": 4,
-                        "66fbe750a17da691f175fa88": 4
+                        "66fbe750a17da691f175fa88": 4,
+                        "66ff4d2e3473f2c04252fbbd": 2,
+                        "66ff4d5280ff33f8bc775d9c": 2,
+                        "66ff582113a89d88a6f2a596": 2,
+                        "66ff583a8ea2fc248db5a210": 2
                     }
                 }
             ],
@@ -1336,6 +1552,7 @@ class Exploster {
         const itemHelper = container.resolve("ItemHelper");
         const items = Object.values(dbT.templates.items);
         const magazines = items.filter(x => itemHelper.isOfBaseclass(x._id, BaseClasses_1.BaseClasses.MAGAZINE));
+        const cylinders = items.filter(x => itemHelper.isOfBaseclass(x._id, BaseClasses_1.BaseClasses.CYLINDER_MAGAZINE));
         const ars = items.filter(x => itemHelper.isOfBaseclass(x._id, BaseClasses_1.BaseClasses.ASSAULT_RIFLE));
         const carbines = items.filter(x => itemHelper.isOfBaseclass(x._id, BaseClasses_1.BaseClasses.ASSAULT_CARBINE));
         const mgs = items.filter(x => itemHelper.isOfBaseclass(x._id, BaseClasses_1.BaseClasses.MACHINE_GUN));
@@ -1405,6 +1622,27 @@ class Exploster {
                  {
                     magazine._props.Cartridges[0]._props.filters[0].Filter.push("66fcc851e64b4074b611119c");
                     magazine._props.Cartridges[0]._props.filters[0].Filter.push("66fccc8962916c1f25af9936");
+                }
+                if (ammoType === "5737218f245977612125ba51") // 9x18mm
+                 {
+                    magazine._props.Cartridges[0]._props.filters[0].Filter.push("66ff4c5156f7ddd2307556b2");
+                    magazine._props.Cartridges[0]._props.filters[0].Filter.push("66ff4cb1a867da9c785d1065");
+                }
+                if (ammoType === "5735ff5c245977640e39ba7e") // 7.62x25
+                 {
+                    magazine._props.Cartridges[0]._props.filters[0].Filter.push("66ff51f79af5ebd0cdbefb22");
+                    magazine._props.Cartridges[0]._props.filters[0].Filter.push("66ff527702b4665f67e8c191");
+                }
+            }
+        }
+        for (const cylinder of cylinders) {
+            for (const num in cylinder._props.Slots) {
+                for (const ammoType of cylinder._props.Slots[num]._props.filters[0].Filter) {
+                    if (ammoType === "5cadf6ddae9215051e1c23b2") // 12.7x55
+                     {
+                        cylinder._props.Slots[num]._props.filters[0].Filter.push("66fb9d173370c7729baed341");
+                        cylinder._props.Slots[num]._props.filters[0].Filter.push("66fb9d4bbc2ff36e9d6a3af4");
+                    }
                 }
             }
         }
@@ -1574,6 +1812,14 @@ class Exploster {
                                     pistol._props.Chambers[0]._props.filters[0].Filter.push("66fb9d173370c7729baed341");
                                     pistol._props.Chambers[0]._props.filters[0].Filter.push("66fb9d4bbc2ff36e9d6a3af4");
                                 }
+                                if (pistol._props.ammoCaliber === "Caliber9x18PM" || pistol._props.ammoCaliber === "Caliber9x18PMM") {
+                                    pistol._props.Chambers[0]._props.filters[0].Filter.push("66ff4c5156f7ddd2307556b2");
+                                    pistol._props.Chambers[0]._props.filters[0].Filter.push("66ff4cb1a867da9c785d1065");
+                                }
+                                if (pistol._props.ammoCaliber === "Caliber762x25TT") {
+                                    pistol._props.Chambers[0]._props.filters[0].Filter.push("66ff51f79af5ebd0cdbefb22");
+                                    pistol._props.Chambers[0]._props.filters[0].Filter.push("66ff527702b4665f67e8c191");
+                                }
                             }
                         }
                     }
@@ -1593,6 +1839,10 @@ class Exploster {
                                 if (smg._props.ammoCaliber === "Caliber1143x23ACP") {
                                     smg._props.Chambers[0]._props.filters[0].Filter.push("66fb98a14d1430da00a13500");
                                     smg._props.Chambers[0]._props.filters[0].Filter.push("66fb98f0a03776db08b20324");
+                                }
+                                if (smg._props.ammoCaliber === "Caliber9x18PM" || smg._props.ammoCaliber === "Caliber9x18PMM") {
+                                    smg._props.Chambers[0]._props.filters[0].Filter.push("66ff4c5156f7ddd2307556b2");
+                                    smg._props.Chambers[0]._props.filters[0].Filter.push("66ff4cb1a867da9c785d1065");
                                 }
                             }
                         }
