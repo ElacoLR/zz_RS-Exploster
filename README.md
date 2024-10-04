@@ -27,10 +27,10 @@ A simple mod which adds bunch of explosive and cluster ammunitions.
 
 ## Usage
 
-![M249](https://cdn.discordapp.com/attachments/944800967793205261/1291025750345908288/M249_Cluster.webp?ex=6700932c&is=66ff41ac&hm=061addbd3d3990a25b4b6b2d7b6e7827bb15d7f0998217a368d95cf9071d2e99&)
+![M249](https://github.com/ElacoLR/zz_RS-Exploster/blob/main/WebP/M249%20Cluster.webp)
 **Boom Boom with M249**<br>
 This mod works with other modded weapons too! <br> <br>
-![Shotgun](https://cdn.discordapp.com/attachments/944800967793205261/1291349526090747967/12gaugeCluster.webp?ex=67006f37&is=66ff1db7&hm=c31a258354e0350456f3be3218e7e19e4702242e33bc46d74c7c0fa4c84cc8e9&)
+![Shotgun](https://github.com/ElacoLR/zz_RS-Exploster/blob/main/WebP/12gaugeCluster.webp)
 Make Setup Easier!
 
 ## How to install
