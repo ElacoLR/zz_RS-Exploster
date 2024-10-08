@@ -176,7 +176,7 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
             newId: "66fba5140558a76e49824c42",
             fleaPriceRoubles: 3500,
             handbookPriceRoubles: 2000,
-            handbookParentId: "66fb955a896c89fbf84cff83",
+            handbookParentId: "5b47574386f77428ca22b33b",
             locales: {
                 en: {
                     name: ".300 High Explosive",
@@ -285,6 +285,142 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                     name: ".338 Lapua Magnum Cluster",
                     shortName: ".338 Clstr",
                     description: "A .338 Lapua Magnum (8.6x70mm) Cluster cartridge with a two-part armor-piercing projectile of 15.4 grams, the bullet consists of a sabot and a tungsten carbide penetrator body, in a brass case. This cartridge was designed to increase, in a limited way, the anti-materiel capabilities of the .338 Lapua Magnum caliber rifles, managing to pierce through light armored vehicles not to mention its excellent results against the most modern specialized ballistic body protections as well as having a considerable stopping power effect and be able to inflict devastating adverse effects on the target after impact. However, due to its design, it has a significant probability of bouncing off various surfaces."
+                }
+            },
+        };
+
+        const HE_357: NewItemFromCloneDetails = {
+            itemTplToClone: "62330c18744e5e31df12f516",
+            overrideProperties: {
+                Prefab: {
+                    path: "assets/content/items/ammo/patrons/patron_9x33r_jhp.bundle",
+                    rcid: ""
+                },
+                ArmorDamage: 35,
+                PenetrationPower: 30,
+                Damage: 45,
+                FuzeArmTimeSec: 0.0001,
+                HasGrenaderComponent: true,
+                ShowHitEffectOnExplode: true,
+                FragmentType: "5996f6d686f77467977ba6cc",
+                ExplosionType: "smallgrenade_expl",
+                FragmentsCount: 0,
+                ExplosionStrength: 7,
+                StackMaxSize: stackConfig["357Stack"]
+            },
+            parentId: "5485a8684bdc2da71d8b4567",
+            newId: "670547b27b51eb084de1bd17",
+            fleaPriceRoubles: 600,
+            handbookPriceRoubles: 350,
+            handbookParentId: "5b47574386f77428ca22b33b",
+            locales: {
+                en: {
+                    name: ".357 High Explosive",
+                    shortName: ".357 HE",
+                    description: "A .357 Magnum (9x33mm R) High Explosive cartridge with an 8 gram lead core hollow-point bullet with a bimetallic jacket in a steel case, produced by Smith & Wesson. The bullet in this cartridge is designed to expand shortly after impacting the target, allowing it to pierce through basic ballistic body protections and provide a considerable stopping power effect, as well as being able to cause severe adverse effects on the target after impact."
+                }
+            },
+        };
+
+        const Cluster_357: NewItemFromCloneDetails = {
+            itemTplToClone: "62330b3ed4dc74626d570b95",
+            overrideProperties: {
+                Prefab: {
+                    path: "assets/content/items/ammo/patrons/patron_9x33r_fmj.bundle",
+                    rcid: ""
+                },
+                ArmorDamage: 45,
+                PenetrationPower: 40,
+                Damage: 55,
+                FuzeArmTimeSec: 0.0001,
+                HasGrenaderComponent: true,
+                ShowHitEffectOnExplode: true,
+                FragmentType: "5996f6fc86f7745e585b4de3",
+                ExplosionType: "smallgrenade_expl",
+                FragmentsCount: 4,
+                ExplosionStrength: 35,
+                MinExplosionDistance: 0.5,
+                MaxExplosionDistance: 3,
+                StackMaxSize: stackConfig["357Stack"]
+            },
+            parentId: "5485a8684bdc2da71d8b4567",
+            newId: "670548094c31de82665fc4cd",
+            fleaPriceRoubles: 700,
+            handbookPriceRoubles: 450,
+            handbookParentId: "5b47574386f77428ca22b33b",
+            locales: {
+                en: {
+                    name: ".357 Cluster",
+                    shortName: ".357 Clstr",
+                    description: "An American-made high-power .357 Magnum Cluster revolver cartridge manufactured by Smith & Wesson."
+                }
+            },
+        };
+
+        const HE_366: NewItemFromCloneDetails = {
+            itemTplToClone: "59e655cb86f77411dc52a77b",
+            overrideProperties: {
+                Prefab: {
+                    path: "assets/content/items/ammo/patrons/patron_366tkm_eko.bundle",
+                    rcid: ""
+                },
+                ArmorDamage: 90,
+                PenetrationPower: 65,
+                Damage: 120,
+                FuzeArmTimeSec: 0.0001,
+                HasGrenaderComponent: true,
+                ShowHitEffectOnExplode: true,
+                FragmentType: "5996f6d686f77467977ba6cc",
+                ExplosionType: "smallgrenade_expl",
+                FragmentsCount: 0,
+                ExplosionStrength: 25,
+                StackMaxSize: stackConfig["366Stack"]
+            },
+            parentId: "5485a8684bdc2da71d8b4567",
+            newId: "67054a16d70c257fec9c24d2",
+            fleaPriceRoubles: 3000,
+            handbookPriceRoubles: 1500,
+            handbookParentId: "5b47574386f77428ca22b33b",
+            locales: {
+                en: {
+                    name: ".366 High Explosive",
+                    shortName: ".366 HE",
+                    description: "A .366 TKM (9.55x39mm) High Explosive cartridge with a 6 gram bullet made entirely of zinc, in a steel case; intended for sport shooting and hunting. Although this cartridge is intended for small-game hunting, its design allows it to pierce through basic ballistic body protections as well as some intermediate models, in addition to providing a significant stopping power effect and being capable of causing severe adverse effects on the target after impact. Its design also allows it to be used in 7.62x39mm AK magazines without any problem."
+                }
+            },
+        };
+
+        const Cluster_366: NewItemFromCloneDetails = {
+            itemTplToClone: "5f0596629e22f464da6bbdd9",
+            overrideProperties: {
+                Prefab: {
+                    path: "assets/content/items/ammo/patrons/patron_366_custom_ap.bundle",
+                    rcid: ""
+                },
+                ArmorDamage: 100,
+                PenetrationPower: 75,
+                Damage: 140,
+                FuzeArmTimeSec: 0.0001,
+                HasGrenaderComponent: true,
+                ShowHitEffectOnExplode: true,
+                FragmentType: "5996f6fc86f7745e585b4de3",
+                ExplosionType: "smallgrenade_expl",
+                FragmentsCount: 5,
+                ExplosionStrength: 65,
+                MinExplosionDistance: 0.5,
+                MaxExplosionDistance: 3,
+                StackMaxSize: stackConfig["366Stack"]
+            },
+            parentId: "5485a8684bdc2da71d8b4567",
+            newId: "67054a6814d84a3bd821de8d",
+            fleaPriceRoubles: 4500,
+            handbookPriceRoubles: 3000,
+            handbookParentId: "5b47574386f77428ca22b33b",
+            locales: {
+                en: {
+                    name: ".366 Cluster",
+                    shortName: ".366 Clstr",
+                    description: "A .366 TKM (9.55x39mm) Cluster cartridge loaded with an 16 gram armor-piercing bullet from a 9x39mm SP-6 gs cartridge, composed of a hardened carbon steel core with a two-layer semi-jacket, a lead interior and a bimetallic exterior, in a modified steel case. This ingeniously improvised cartridge was created by Mechanic due to the precarious situation of its customers in Tarkov, resulting in a cartridge that can pierce through basic and intermediate ballistic body protection, as well as providing a considerable stopping power effect, however, its own design alters its flight pattern, making it less accurate. Its design also allows it to be used in 7.62x39mm AK magazines without any problem."
                 }
             },
         };
@@ -977,6 +1113,10 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
         CustomItem.createItemFromClone(Cluster_300);
         CustomItem.createItemFromClone(HE_338);
         CustomItem.createItemFromClone(Cluster_338);
+        CustomItem.createItemFromClone(HE_357);
+        CustomItem.createItemFromClone(Cluster_357);
+        CustomItem.createItemFromClone(HE_366);
+        CustomItem.createItemFromClone(Cluster_366);
         CustomItem.createItemFromClone(HE_45);
         CustomItem.createItemFromClone(Cluster_45);
         CustomItem.createItemFromClone(HE_545);
@@ -1081,6 +1221,26 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                                 "UnlimitedCount": true,
                                 "StackObjectsCount": 99999
                             }
+                        },
+                        {
+                            "_id": "67054918dcfe416035b80765",
+                            "_tpl": "670547b27b51eb084de1bd17",
+                            "parentId": "hideout",
+                            "slotId": "hideout",
+                            "upd": {
+                                "UnlimitedCount": true,
+                                "StackObjectsCount": 99999
+                            }
+                        },
+                        {
+                            "_id": "6705494a465ff8e7573e1184",
+                            "_tpl": "670548094c31de82665fc4cd",
+                            "parentId": "hideout",
+                            "slotId": "hideout",
+                            "upd": {
+                                "UnlimitedCount": true,
+                                "StackObjectsCount": 99999
+                            }
                         }
                     ],
                     "barter_scheme": {
@@ -1147,6 +1307,22 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                                     "_tpl": "5696686a4bdc2da3298b456a"
                                 }
                             ]
+                        ],
+                        "67054918dcfe416035b80765": [
+                            [
+                                {
+                                    "count": 10,
+                                    "_tpl": "5696686a4bdc2da3298b456a"
+                                }
+                            ]
+                        ],
+                        "6705494a465ff8e7573e1184": [
+                            [
+                                {
+                                    "count": 15,
+                                    "_tpl": "5696686a4bdc2da3298b456a"
+                                }
+                            ]
                         ]
                     },
                     "loyal_level_items": {
@@ -1157,7 +1333,9 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                         "66fb9205863d5ba78531d558": 3,
                         "66fb9245edc1f93593107eb6": 3,
                         "66fb99347e9e5eb5026a7e92": 4,
-                        "66fb99657afe7a3258877e5c": 4
+                        "66fb99657afe7a3258877e5c": 4,
+                        "67054918dcfe416035b80765": 2,
+                        "6705494a465ff8e7573e1184": 2
                     }
                 }
             ],
@@ -1303,6 +1481,26 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                                 "UnlimitedCount": true,
                                 "StackObjectsCount": 99999
                             }
+                        },
+                        {
+                            "_id": "67054ab9258c09da2517ca31",
+                            "_tpl": "67054a16d70c257fec9c24d2",
+                            "parentId": "hideout",
+                            "slotId": "hideout",
+                            "upd": {
+                                "UnlimitedCount": true,
+                                "StackObjectsCount": 99999
+                            }
+                        },
+                        {
+                            "_id": "67054ae26e80b1f12b132167",
+                            "_tpl": "67054a6814d84a3bd821de8d",
+                            "parentId": "hideout",
+                            "slotId": "hideout",
+                            "upd": {
+                                "UnlimitedCount": true,
+                                "StackObjectsCount": 99999
+                            }
                         }
                     ],
                     "barter_scheme": {
@@ -1417,6 +1615,22 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                                     "_tpl": "5449016a4bdc2d6f028b456f"
                                 }
                             ]
+                        ],
+                        "67054ab9258c09da2517ca31": [
+                            [
+                                {
+                                    "count": 2300,
+                                    "_tpl": "5449016a4bdc2d6f028b456f"
+                                }
+                            ]
+                        ],
+                        "67054ae26e80b1f12b132167": [
+                            [
+                                {
+                                    "count": 3500,
+                                    "_tpl": "5449016a4bdc2d6f028b456f"
+                                }
+                            ]
                         ]
                     },
                     "loyal_level_items": {
@@ -1433,7 +1647,9 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                         "66ff4d2e3473f2c04252fbbd": 2,
                         "66ff4d5280ff33f8bc775d9c": 2,
                         "66ff582113a89d88a6f2a596": 2,
-                        "66ff583a8ea2fc248db5a210": 2
+                        "66ff583a8ea2fc248db5a210": 2,
+                        "67054ab9258c09da2517ca31": 3,
+                        "67054ae26e80b1f12b132167": 3
                     }
                 }
             ],
@@ -1698,6 +1914,18 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                     magazine._props.Cartridges[0]._props.filters[0].Filter.push("66ff51f79af5ebd0cdbefb22");
                     magazine._props.Cartridges[0]._props.filters[0].Filter.push("66ff527702b4665f67e8c191");
                 }
+
+                if (ammoType === "62330b3ed4dc74626d570b95") // .357
+                {
+                    magazine._props.Cartridges[0]._props.filters[0].Filter.push("670547b27b51eb084de1bd17");
+                    magazine._props.Cartridges[0]._props.filters[0].Filter.push("670548094c31de82665fc4cd");
+                }
+
+                if (ammoType === "59e6658b86f77411d949b250") // .366
+                {
+                    magazine._props.Cartridges[0]._props.filters[0].Filter.push("67054a16d70c257fec9c24d2");
+                    magazine._props.Cartridges[0]._props.filters[0].Filter.push("67054a6814d84a3bd821de8d");
+                }
             }
         }
 
@@ -1711,6 +1939,18 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                     {
                         cylinder._props.Slots[num]._props.filters[0].Filter.push("66fb9d173370c7729baed341");
                         cylinder._props.Slots[num]._props.filters[0].Filter.push("66fb9d4bbc2ff36e9d6a3af4");
+                    }
+
+                    if (ammoType === "5d6e6772a4b936088465b17c") // 12g
+                    {
+                        cylinder._props.Slots[num]._props.filters[0].Filter.push("66fcc851e64b4074b611119c")
+                        cylinder._props.Slots[num]._props.filters[0].Filter.push("66fccc8962916c1f25af9936")
+                    }
+
+                    if (ammoType === "62330b3ed4dc74626d570b95") // .357
+                    {
+                        cylinder._props.Slots[num]._props.filters[0].Filter.push("670547b27b51eb084de1bd17");
+                        cylinder._props.Slots[num]._props.filters[0].Filter.push("670548094c31de82665fc4cd");
                     }
                 }
             }
@@ -1822,6 +2062,12 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                                     carbine._props.Chambers[0]._props.filters[0].Filter.push("66fbe6641ca64895de0c9030");
                                     carbine._props.Chambers[0]._props.filters[0].Filter.push("66fbe6a3625f4d687b2b523b");
                                 }
+
+                                if (carbine._props.ammoCaliber === "Caliber366TKM")
+                                {
+                                    carbine._props.Chambers[0]._props.filters[0].Filter.push("67054a16d70c257fec9c24d2");
+                                    carbine._props.Chambers[0]._props.filters[0].Filter.push("67054a6814d84a3bd821de8d");
+                                }
                             }
                         }
                     }
@@ -1887,6 +2133,12 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                                 {
                                     sr._props.Chambers[0]._props.filters[0].Filter.push("66fb9fac1c55070606ecdff3");
                                     sr._props.Chambers[0]._props.filters[0].Filter.push("66fb9fb38243d4c4b9620605");
+                                }
+
+                                if (sr._props.ammoCaliber === "Caliber366TKM")
+                                {
+                                    sr._props.Chambers[0]._props.filters[0].Filter.push("67054a16d70c257fec9c24d2");
+                                    sr._props.Chambers[0]._props.filters[0].Filter.push("67054a6814d84a3bd821de8d");
                                 }
                             }
                         }
@@ -1978,6 +2230,12 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
                                     pistol._props.Chambers[0]._props.filters[0].Filter.push("66ff51f79af5ebd0cdbefb22");
                                     pistol._props.Chambers[0]._props.filters[0].Filter.push("66ff527702b4665f67e8c191");
                                 }
+
+                                if (pistol._props.ammoCaliber === "Caliber9x33R") // .357
+                                {
+                                    pistol._props.Chambers[0]._props.filters[0].Filter.push("670547b27b51eb084de1bd17");
+                                    pistol._props.Chambers[0]._props.filters[0].Filter.push("670548094c31de82665fc4cd");
+                                }
                             }
                         }
                     }
@@ -2027,7 +2285,26 @@ class Exploster implements IPostDBLoadMod, IPostSptLoadMod
             {
                 if (shotgun._props.Chambers[0])
                 {
-                    if (shotgun._props.Chambers[0]._props)
+                    if (shotgun._props.Chambers[1]) // Double-Barrel
+                    {
+                        if (shotgun._props.Chambers[0]._props && shotgun._props.Chambers[1]._props)
+                        {
+                            if (shotgun._props.Chambers[0]._props.filters[0] && shotgun._props.Chambers[1]._props.filters[0])
+                            {
+                                if (shotgun._props.Chambers[0]._props.filters[0].Filter && shotgun._props.Chambers[1]._props.filters[0].Filter)
+                                {
+                                    if (shotgun._props.ammoCaliber === "Caliber12g")
+                                    {
+                                        shotgun._props.Chambers[0]._props.filters[0].Filter.push("66fcc851e64b4074b611119c");
+                                        shotgun._props.Chambers[0]._props.filters[0].Filter.push("66fccc8962916c1f25af9936");
+                                        shotgun._props.Chambers[1]._props.filters[0].Filter.push("66fcc851e64b4074b611119c");
+                                        shotgun._props.Chambers[1]._props.filters[0].Filter.push("66fccc8962916c1f25af9936");
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    else if (shotgun._props.Chambers[0]._props)
                     {
                         if (shotgun._props.Chambers[0]._props.filters[0])
                         {
