@@ -10,6 +10,36 @@ class Exploster {
         const CustomItem = container.resolve("CustomItemService");
         const itemsToClone = [
             {
+                itemTplToClone: "6601546f86889319850bd566",
+                overrideProperties: {
+                    Prefab: {
+                        path: "assets/content/items/ammo/patrons/patron_20x1mm.bundle",
+                        rcid: ""
+                    },
+                    Damage: 2,
+                    FuzeArmTimeSec: 0.0001,
+                    HasGrenaderComponent: true,
+                    ShowHitEffectOnExplode: true,
+                    FragmentType: "5996f6d686f77467977ba6cc",
+                    ExplosionType: "smallgrenade_expl",
+                    FragmentsCount: 0,
+                    ExplosionStrength: 1,
+                    StackMaxSize: config_json_1.default["TOYStack"]
+                },
+                parentId: "5485a8684bdc2da71d8b4567",
+                newId: "6705df7359d64ebd1df8274e",
+                fleaPriceRoubles: 300,
+                handbookPriceRoubles: 100,
+                handbookParentId: "5b47574386f77428ca22b33b",
+                locales: {
+                    en: {
+                        name: "20x1mm Boom",
+                        shortName: "Toy Boom",
+                        description: "A toy ammunition in the form of a 20x1mm disk for the Soviet plastic toy gun. Manufactured in the USSR. (Caution : It can explode!)"
+                    }
+                },
+            },
+            {
                 itemTplToClone: "5d6e68c4a4b9361b93413f79",
                 overrideProperties: {
                     Prefab: {
@@ -1330,6 +1360,72 @@ class Exploster {
                 },
             },
             {
+                itemTplToClone: "5a26ac0ec4a28200741e1e18",
+                overrideProperties: {
+                    Prefab: {
+                        path: "assets/content/items/ammo/patrons/patron_9x21_sp13.bundle",
+                        rcid: ""
+                    },
+                    ArmorDamage: 40,
+                    PenetrationPower: 35,
+                    Damage: 53,
+                    FuzeArmTimeSec: 0.0001,
+                    HasGrenaderComponent: true,
+                    ShowHitEffectOnExplode: true,
+                    FragmentType: "5996f6d686f77467977ba6cc",
+                    ExplosionType: "smallgrenade_expl",
+                    FragmentsCount: 0,
+                    ExplosionStrength: 5,
+                    StackMaxSize: config_json_1.default["921Stack"]
+                },
+                parentId: "5485a8684bdc2da71d8b4567",
+                newId: "6705dba9e4e96fa86c4d5e43",
+                fleaPriceRoubles: 1050,
+                handbookPriceRoubles: 550,
+                handbookParentId: "5b47574386f77428ca22b33b",
+                locales: {
+                    en: {
+                        name: "9x21mm High Explosive",
+                        shortName: "9x21 HE",
+                        description: "A 9x21mm Gyurza High Explosive cartridge with a 7.3 gram armor-piercing tracer bullet with a steel core and a two-layer semi-jacket, a lead interior and a bimetallic exterior, in a bimetallic case; intended for target designation and fire adjustment in battle (Trace color: Red). This BT bullet (Bronebóynaya Trassíruyushchaya - \"Armor-piercing Tracer\") was developed for 9x21mm caliber submachine guns by TsNIITochMash based on the 9x21mm PS gzh \"SP10\" cartridge and has superior characteristics, being able of piercing basic and intermediate ballistic body protections, as well as having a considerable stopping power effect, however, it has a high bounce probability on various surfaces."
+                    }
+                },
+            },
+            {
+                itemTplToClone: "6576f4708ca9c4381d16cd9d",
+                overrideProperties: {
+                    Prefab: {
+                        path: "assets/content/items/ammo/patrons/patron_9x21_7n42.bundle",
+                        rcid: ""
+                    },
+                    ArmorDamage: 45,
+                    PenetrationPower: 40,
+                    Damage: 65,
+                    FuzeArmTimeSec: 0.0001,
+                    HasGrenaderComponent: true,
+                    ShowHitEffectOnExplode: true,
+                    FragmentType: "5996f6fc86f7745e585b4de3",
+                    ExplosionType: "smallgrenade_expl",
+                    FragmentsCount: 3,
+                    ExplosionStrength: 42,
+                    MinExplosionDistance: 0.5,
+                    MaxExplosionDistance: 3,
+                    StackMaxSize: config_json_1.default["921Stack"]
+                },
+                parentId: "5485a8684bdc2da71d8b4567",
+                newId: "6705dbea85e6728deb5649c8",
+                fleaPriceRoubles: 1150,
+                handbookPriceRoubles: 650,
+                handbookParentId: "5b47574386f77428ca22b33b",
+                locales: {
+                    en: {
+                        name: "9x21mm Cluster",
+                        shortName: "9x21 Clstr",
+                        description: "The 9x21mm Cluster cartridge with increased penetration bullet is designed to engage armored personnel. The head part of the core is made with a cut edge. This design ensures the tearing of the threads of the fabric base of the body armor and significantly increases the penetration of the bullet. The core protrudes from the jacket, which increases its penetration capability. The bullet head is colored black."
+                    }
+                },
+            },
+            {
                 itemTplToClone: "57a0e5022459774d1673f889",
                 overrideProperties: {
                     Prefab: {
@@ -1858,6 +1954,26 @@ class Exploster {
                                 "UnlimitedCount": true,
                                 "StackObjectsCount": 99999
                             }
+                        },
+                        {
+                            "_id": "6705dc2f4846c6a9f18948b8",
+                            "_tpl": "6705dba9e4e96fa86c4d5e43",
+                            "parentId": "hideout",
+                            "slotId": "hideout",
+                            "upd": {
+                                "UnlimitedCount": true,
+                                "StackObjectsCount": 99999
+                            }
+                        },
+                        {
+                            "_id": "6705dc58b9cd6ac5208c19d0",
+                            "_tpl": "6705dbea85e6728deb5649c8",
+                            "parentId": "hideout",
+                            "slotId": "hideout",
+                            "upd": {
+                                "UnlimitedCount": true,
+                                "StackObjectsCount": 99999
+                            }
                         }
                     ],
                     "barter_scheme": {
@@ -2004,6 +2120,22 @@ class Exploster {
                                     "_tpl": "5449016a4bdc2d6f028b456f"
                                 }
                             ]
+                        ],
+                        "6705dc2f4846c6a9f18948b8": [
+                            [
+                                {
+                                    "count": 800,
+                                    "_tpl": "5449016a4bdc2d6f028b456f"
+                                }
+                            ]
+                        ],
+                        "6705dc58b9cd6ac5208c19d0": [
+                            [
+                                {
+                                    "count": 900,
+                                    "_tpl": "5449016a4bdc2d6f028b456f"
+                                }
+                            ]
                         ]
                     },
                     "loyal_level_items": {
@@ -2024,7 +2156,9 @@ class Exploster {
                         "67054ab9258c09da2517ca31": 3,
                         "67054ae26e80b1f12b132167": 3,
                         "670558ff5a841b216fb13434": 4,
-                        "67055915edabde5b854f993e": 4
+                        "67055915edabde5b854f993e": 4,
+                        "6705dc2f4846c6a9f18948b8": 2,
+                        "6705dc58b9cd6ac5208c19d0": 2
                     }
                 }
             ],
@@ -2222,6 +2356,16 @@ class Exploster {
                                 "UnlimitedCount": true,
                                 "StackObjectsCount": 99999
                             }
+                        },
+                        {
+                            "_id": "6705dfd1c7185bc63f3b78de",
+                            "_tpl": "6705df7359d64ebd1df8274e",
+                            "parentId": "hideout",
+                            "slotId": "hideout",
+                            "upd": {
+                                "UnlimitedCount": true,
+                                "StackObjectsCount": 99999
+                            }
                         }
                     ],
                     "barter_scheme": {
@@ -2240,11 +2384,20 @@ class Exploster {
                                     "_tpl": "5449016a4bdc2d6f028b456f"
                                 }
                             ]
+                        ],
+                        "6705dfd1c7185bc63f3b78de": [
+                            [
+                                {
+                                    "count": 5,
+                                    "_tpl": "5449016a4bdc2d6f028b456f"
+                                }
+                            ]
                         ]
                     },
                     "loyal_level_items": {
                         "67055aed6d44977e3f8e5f20": 4,
-                        "67055b058655e8f6f9c435ed": 4
+                        "67055b058655e8f6f9c435ed": 4,
+                        "6705dfd1c7185bc63f3b78de": 1
                     }
                 }
             ]
@@ -2383,6 +2536,15 @@ class Exploster {
                     magazine._props.Cartridges[0]._props.filters[0].Filter.push("67055ddbc4ff44d276a9afb9");
                     magazine._props.Cartridges[0]._props.filters[0].Filter.push("67055e203cb46c6a4354cea2");
                 }
+                if (ammoType === "5a269f97c4a282000b151807") // 9x21mm
+                 {
+                    magazine._props.Cartridges[0]._props.filters[0].Filter.push("6705dba9e4e96fa86c4d5e43");
+                    magazine._props.Cartridges[0]._props.filters[0].Filter.push("6705dbea85e6728deb5649c8");
+                }
+                if (ammoType === "6601546f86889319850bd566") // 20x1mm TOY GUN
+                 {
+                    magazine._props.Cartridges[0]._props.filters[0].Filter.push("6705df7359d64ebd1df8274e");
+                }
             }
         }
         for (const cylinder of cylinders) {
@@ -2444,6 +2606,10 @@ class Exploster {
                                     ar._props.Chambers[0]._props.filters[0].Filter.push("67055ddbc4ff44d276a9afb9");
                                     ar._props.Chambers[0]._props.filters[0].Filter.push("67055e203cb46c6a4354cea2");
                                 }
+                                if (ar._props.ammoCaliber === "Caliber366TKM") {
+                                    ar._props.Chambers[0]._props.filters[0].Filter.push("67054a16d70c257fec9c24d2");
+                                    ar._props.Chambers[0]._props.filters[0].Filter.push("67054a6814d84a3bd821de8d");
+                                }
                             }
                         }
                     }
@@ -2479,10 +2645,6 @@ class Exploster {
                                 if (carbine._props.ammoCaliber === "Caliber9x39") {
                                     carbine._props.Chambers[0]._props.filters[0].Filter.push("66fbe6641ca64895de0c9030");
                                     carbine._props.Chambers[0]._props.filters[0].Filter.push("66fbe6a3625f4d687b2b523b");
-                                }
-                                if (carbine._props.ammoCaliber === "Caliber366TKM") {
-                                    carbine._props.Chambers[0]._props.filters[0].Filter.push("67054a16d70c257fec9c24d2");
-                                    carbine._props.Chambers[0]._props.filters[0].Filter.push("67054a6814d84a3bd821de8d");
                                 }
                             }
                         }
@@ -2602,6 +2764,15 @@ class Exploster {
                                     pistol._props.Chambers[0]._props.filters[0].Filter.push("67055c41eba56eaa35ba547e");
                                     pistol._props.Chambers[0]._props.filters[0].Filter.push("67055c83237e8b00818cd005");
                                 }
+                                if (pistol._props.ammoCaliber === "Caliber9x21") // 5.7x28mm
+                                 {
+                                    pistol._props.Chambers[0]._props.filters[0].Filter.push("6705dba9e4e96fa86c4d5e43");
+                                    pistol._props.Chambers[0]._props.filters[0].Filter.push("6705dbea85e6728deb5649c8");
+                                }
+                                if (pistol._props.ammoCaliber === "Caliber20x1mm") // 5.7x28mm
+                                 {
+                                    pistol._props.Chambers[0]._props.filters[0].Filter.push("6705df7359d64ebd1df8274e");
+                                }
                             }
                         }
                     }
@@ -2633,6 +2804,10 @@ class Exploster {
                                 if (smg._props.ammoCaliber === "Caliber57x28") {
                                     smg._props.Chambers[0]._props.filters[0].Filter.push("67055c41eba56eaa35ba547e");
                                     smg._props.Chambers[0]._props.filters[0].Filter.push("67055c83237e8b00818cd005");
+                                }
+                                if (smg._props.ammoCaliber === "Caliber9x21") {
+                                    smg._props.Chambers[0]._props.filters[0].Filter.push("6705dba9e4e96fa86c4d5e43");
+                                    smg._props.Chambers[0]._props.filters[0].Filter.push("6705dbea85e6728deb5649c8");
                                 }
                             }
                         }
@@ -2668,6 +2843,10 @@ class Exploster {
                                 if (shotgun._props.ammoCaliber === "Caliber12g") {
                                     shotgun._props.Chambers[0]._props.filters[0].Filter.push("66fcc851e64b4074b611119c");
                                     shotgun._props.Chambers[0]._props.filters[0].Filter.push("66fccc8962916c1f25af9936");
+                                }
+                                if (shotgun._props.ammoCaliber === "Caliber20g") {
+                                    shotgun._props.Chambers[0]._props.filters[0].Filter.push("670556490b5d8fb1f9893724");
+                                    shotgun._props.Chambers[0]._props.filters[0].Filter.push("670556991ca2c75e34ed4339");
                                 }
                                 if (shotgun._props.ammoCaliber === "Caliber23x75") {
                                     shotgun._props.Chambers[0]._props.filters[0].Filter.push("6705584cabe9a5cb48c1a2eb");
