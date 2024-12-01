@@ -1,7 +1,7 @@
 {
     "name": "Exploster",
     "version": "1.0.0",
-    "sptVersion": "3.9.X",
+    "sptVersion": "3.10.X",
     "loadBefore": [],
     "loadAfter": [],
     "incompatibilities": [],
